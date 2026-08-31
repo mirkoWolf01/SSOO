@@ -25,8 +25,8 @@ int main(){
 
     while(msg < 50){
         // Envio y espero la respuesta.
-        send(sock, &msg, sizeof(int), 0);
-        recv(sock, &msg, sizeof(int), 0);
+        send(sock, &msg, sizeof(msg), 0);
+        recv(sock, &msg, sizeof(msg), 0);
 
         printf("[Cliente: %d] Recibi: %d \n", getpid(), msg);
         msg++;

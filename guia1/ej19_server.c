@@ -26,7 +26,7 @@ int main(){
 
     int msg = 0;
     while(msg < 50){
-        recv(client_sck, &msg, sizeof(int), 0);
+        recv(client_sck, &msg, sizeof(msg), 0);
         printf("[Server: %d] Recibi: %d \n", getpid(), msg);
 
         msg++;
