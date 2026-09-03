@@ -1,5 +1,7 @@
+# 1. Ignora absolutamente todo (incluyendo los ejecutables compilados)
 *
 
-!*.c
+!*/
+!**/*.c
 !Makefile
 !.gitignore
