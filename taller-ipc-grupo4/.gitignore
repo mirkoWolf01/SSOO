@@ -1,0 +1,17 @@
+# Estado de la maquina virtual (disco, pid, logs)
+vm/
+
+# Herramientas compartidas: no se versionan aca, las clona make solo
+# desde el repo taller-tools la primera vez.
+/tools/
+/tools.tmp/
+
+# Binarios compilados y trazas
+bin/minishell
+bin/anillo
+bin/servidor
+bin/cliente
+trace.txt
+
+# Tests
+__pycache__/
