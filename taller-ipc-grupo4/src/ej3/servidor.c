@@ -254,6 +254,8 @@ static void handle_client(int fd)
 
 	for (;;) {
 		char c;
+		// Como no estoy usando las flags, es lo mismo que usar read
+		// Esto tambien ocurre para send y write
 		ssize_t n = recv(fd, &c, 1, 0);
 
 		if (n < 0) {
