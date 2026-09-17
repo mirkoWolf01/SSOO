@@ -120,6 +120,7 @@ static int recv_body(int fd, long long len)
 	/* 2. Escribir por stdout lo que se haya leído, y descontarlo de lo
 	 *    que falta. */
 	fwrite(chunk, 1, n_b, stdout);
+	//write(STDOUT_FILENO, &chunk, n_b); tambien funciona con esto
 	missing_b -= n_b;
 
 	/* 3. Vaciar el buffer de stdout: si no, la respuesta se puede
