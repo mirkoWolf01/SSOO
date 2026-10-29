@@ -1,0 +1,21 @@
+Concurrencia
+
+El padre se partió para tener un hijo
+y el hijo, al despertar, no supo si era el padre:
+la misma pila, el mismo código prolijo,
+y un cero en el retorno para que todo encuadre.
+
+Se hablan por un caño de dos puntas ciegas
+que conoce el orden pero nunca el sentido.
+Escribe uno y espera. Al otro al fin le llega
+un número cansado de tanto haber corrido.
+
+Cerrá lo que no uses: es la única plegaria.
+Todo descriptor que se te quede abierto
+es una puerta entornada, una espera precaria,
+un anillo que gira sin saber que está muerto.
+
+Y cuando al fin el último de todos haya vuelto,
+y el padre, en su wait(), los recoja uno a uno,
+que no quede ni un hijo dando vueltas, insepulto,
+ni un file descriptor abierto para ninguno.

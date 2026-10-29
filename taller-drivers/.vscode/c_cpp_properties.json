@@ -1,0 +1,26 @@
+{
+    "configurations": [
+        {
+            "name": "Linux",
+            "includePath": [
+                "${workspaceFolder}/**",
+                "/lib/modules/7.0.0-38-generic/build/include",
+                "/lib/modules/7.0.0-38-generic/build/include/uapi",
+                "/lib/modules/7.0.0-38-generic/build/include/asm-generic",
+                "/lib/modules/7.0.0-38-generic/build/arch/x86/include",
+                "/lib/modules/7.0.0-38-generic/build/arch/x86/include/generated",
+                "/lib/modules/7.0.0-38-generic/build/arch/x86/include/uapi",
+                "/lib/modules/7.0.0-38-generic/build/arch/x86/include/generated/uapi"
+            ],
+            "defines": [
+                "__KERNEL__",
+                "MODULE",
+                "KBUILD_MODNAME=\"nulo\""
+            ],
+            "compilerPath": "/usr/bin/gcc",
+            "cStandard": "gnu11",
+            "intelliSenseMode": "linux-gcc-x64"
+        }
+    ],
+    "version": 4
+}

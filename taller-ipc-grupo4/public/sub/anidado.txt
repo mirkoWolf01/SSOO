@@ -1,0 +1,2 @@
+Este archivo vive en una subcarpeta de public/.
+Si lo estás leyendo, tu servidor resuelve rutas anidadas.
