@@ -1,6 +1,9 @@
 # 1. Ignora absolutamente todo (incluyendo los ejecutables compilados)
 *
 
+!taller-filesystem/*
+!taller-drivers/*
+!taller-ipc-grupo4/*
 !.vscode/
 !*/
 !**/*.c
